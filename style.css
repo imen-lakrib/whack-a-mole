@@ -1,0 +1,48 @@
+
+body{
+	background-color: #007EA7;
+}
+
+.square{
+	height: 200px;
+	width: 200px;
+	border: #E3B23C 8px solid;
+	border-radius: 50%;
+}
+section{
+	margin-top: 50px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+
+}
+.grid{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	width: 680px;
+	height: 680px;
+
+}
+.mole{
+	background-image: url(images/mole.png);
+	background-size: cover;
+}
+
+h2{
+	font-size: 40px;
+	color: #C2EFEB;
+	display: flex;
+	justify-content: center;
+
+}
+.title{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 60px;
+	color: #f2b818;
+
+}
